@@ -1,0 +1,39 @@
+html {
+    background: url('../img/fundo.jpg') no-repeat center fixed;
+    background-size: cover
+}
+
+img {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h1 {
+    color: #0fff90;
+    border-radius: 25px;
+    background: #00ff;
+    padding: 20px;
+    width: 100px;
+    height: 35px;
+    
+
+}
+
+.paragrafo {
+    font-size: 38px;
+}
+
+p, ul, ol {
+    font-family: verdana;
+    color: #ffffff;
+}
+
+
+
+
+img:hover {
+    transform: scaleX(-1);
+  }
