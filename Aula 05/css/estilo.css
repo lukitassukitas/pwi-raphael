@@ -1,0 +1,23 @@
+
+  /* link que nao foi clicado*/
+a:link {
+    color: rgb(90, 150, 113);
+  }
+  
+  /* link que nao foi clicado */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+  a:link {
+    background-color: rgb(253, 250, 47);
+  }
