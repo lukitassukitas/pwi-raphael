@@ -1,0 +1,11 @@
+html {
+    background-color: rgb(255, 237, 188);
+}
+
+label {
+    margin-left: 50px;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+  }
