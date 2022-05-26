@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DIV</title>
+        <style>
+            .flex-container{
+                display: flex;
+                background-color: greenyellow;
+                flex-flow: row wrap;
+                justify-content: space-evenly;
+            /* justify-content: space-around; */
+            }
+            .flex-container > div{
+                width: 150px;
+                background-color: aquamarine;
+                margin: 10px;
+                font-size: 20px;
+                font-family: 'Verdana';
+                line-height: 75px;
+                text-align: center;
+            }
+            h1 {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Teste de DIV</h1>
+        <br>
+        <br>
+        <div class="flex-container">
+            <div>Guilherme</div>
+            <div>Raphael</div>
+            <div>Wallace</div>
+            <div>Kethelin</div>
+        </div>
+    </body>
+</html>
